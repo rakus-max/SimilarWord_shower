@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block body %}
+
+<div class="row">
+</div>
+<div class="row">
+    <div class="col s4 offset-s4">
+        <p>入力テキスト：{{input_text}}</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col s4 center offset-s4">
+        <div class="card-panel teal lighten-4">類義語は{{result}}です。</div>
+    </div>
+</div>
+<div class="row">
+    <div class="col s4 center offset-s4">
+        <button class="btn waves-effect waves-lightr blue" name="top" onclick="location.href='/'">トップページヘ戻る</button>
+    </div>
+</div>
+{% endblock %}

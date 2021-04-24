@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block body %}
+
+<div class="row">
+    <div class="col s8 offset-s2">
+        <form id="upload_image" action="/" method="post">
+            <div class="input-field row">
+                <div class="col s8">
+                    <input id="text" class="validate" placeholder="テキストを入力してください" type="text" name="text">
+                </div>
+                <div class="col s2">
+                    <button class="btn waves-effect waves-light blue" type="submit" name="action">表示
+                        <i class="material-icons right">send</i>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}
